@@ -4,12 +4,12 @@ body{
 }
 
 @font-face{
-  font-family: aldora;
-  src: url(ALDORAStroke.ttf);
+  font-family: 'aldora';
+  src: url(/css/"ALDORAStroke.ttf");
 }
 
 h1{
   color: white;
-  font-family: aldora;
+  font-family: 'aldora';
 }
 
