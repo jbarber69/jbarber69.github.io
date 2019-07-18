@@ -1,15 +1,16 @@
 body{
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  /*background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+  background: #e8e8e8;
 }
 
 @font-face{
   font-family: 'aldora';
-  src: url(/css/'ALDORAStroke.ttf');
+  src: url('/css/ALDORAStroke.ttf');
 }
 
 h1{
-  color: white;
+  color: #000863;
   font-family: 'aldora';
 }
 
