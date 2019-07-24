@@ -1,0 +1,62 @@
+body{
+  /*background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+  background: #e8e8e8;
+}
+
+@font-face{
+  font-family: 'aldora';
+  src: url('Anson-Regular.otf');
+}
+
+h1{
+  color: #000863;
+  font-family: 'aldora';
+  text-align: center;
+}
+
+h2 {
+  color: #000863;
+  font-family: 'aldora';
+}
+
+h3{
+  color: #000863;
+  font-family: 'aldora';
+  font-size: 20px;
+  font-style: italic;
+}
+
+a{
+  text-decoration-color: #000863;
+  text-decoration: none;
+}
+
+table.main{
+  margin: auto;
+  border-spacing: 50px 0em;
+}
+
+.about:hover{
+  text-decoration: underline;
+  text-decoration-color: #000863;
+}
+
+.projects:hover{
+  text-decoration: underline;
+  text-decoration-color: #000863;
+}
+
+.contact:hover{
+  text-decoration: underline;
+  text-decoration-color: #000863;
+}
+
+.projectTable{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
+}

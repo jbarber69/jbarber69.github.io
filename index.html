@@ -3,19 +3,40 @@
 	<head>
 		<title>Jack Barber</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
-		<h1> Jack Barber </h1>
-		<table>
-			<tr>
-				<th>
-					<h2> About Me </h2>
-				</th>
-				<th>
-					<h2> Projects </h2>
-				</th>
-			</tr>
-		</table>
+		<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+		<script src='main.js'></script>
+		<!--<h1> Jack Barber </h1>-->
+		<div class = "mainTable">
+			<table class = "main">
+				<tr class = "info">
+					<th class = "about">
+						<h2> About Me </h2>
+					</th>
+					<th class = "projects">
+						<a href = './projects.html'><h2> Projects </h2></a>
+					</th>
+					<th class = "contact">
+						<h2> Contact Me </h2>
+					</th>
+				</tr>
+			</table>
+		</div>
+		<div style = "clear:both;"></div>
+		<div class = "infotable">
+			<h2>I am a software engineer currently studying for a 
+				BSc in Computer Science at the University of Bath. You can find my <a href = "Jack Barber CV.pdf" target = "_blank">CV</a> here.
+			</h2>
+			<div style = "clear:both;"></div>
+			<h2>Outside of University I have many hobbies such as skateboarding, fashion and photography.</h2>
+			<!--<table class = "infotable">
+				<tr>
+					<td><h2>stuff about myself</h2></td>
+				</tr>
+			</table>-->
+
+		</div>
 	</body>
 </html>
