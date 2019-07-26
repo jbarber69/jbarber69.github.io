@@ -20,15 +20,15 @@ function toggleDarkLight() {
 }
 
 function projects(){
-	location.replace("./projects.html");
+	window.location.href = "./projects.html";
 }
 
 function other(){
-	location.replace("./other.html");
+	window.location.href("./other.html");
 }
 
 function cv(){
-	location.replace("Jack Barber CV.pdf")
+	window.location.href = "Jack Barber CV.pdf";
 }
 
 $(document).ready(main);
