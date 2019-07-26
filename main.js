@@ -24,11 +24,11 @@ function projects(){
 }
 
 function other(){
-	window.location.href("./other.html");
+	window.location.href = "./other.html";
 }
 
 function cv(){
-	window.location.href = "Jack Barber CV.pdf";
+	window.open("Jack Barber CV.pdf", "_blank");
 }
 
 $(document).ready(main);
