@@ -9,27 +9,84 @@ body{
   src: url('Anson-Regular.otf');
 }
 
-h1{
-  color: #000863;
+body.dark-mode {
+  background-color: black;
+  color: white;
+  font-family: 'aldora';
+  text-decoration: none;
+  text-decoration-color: white;
+
+  button{
+    background-color: white;
+    color: black;
+  }
+
+  h1{
+  color: white;
   font-family: 'aldora';
   text-align: center;
+  }
+
+  h2 {
+    color: white;
+    font-family: 'aldora';
+  }
+
+  h3{
+    color: white;
+    font-family: 'aldora';
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  h4 {
+    color: white;
+    font-family: 'aldora';
+    font-size: 10px;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
 }
 
-h2 {
+body.light-mode {
+
+  background-color: #e8e8e8;
   color: #000863;
   font-family: 'aldora';
-}
-
-h3{
-  color: #000863;
-  font-family: 'aldora';
-  font-size: 20px;
-  font-style: italic;
-}
-
-a{
-  text-decoration-color: #000863;
   text-decoration: none;
+
+
+  /*h1{
+  /*color: #000863;
+  font-family: 'aldora';
+  text-align: center;
+  }
+
+  h2 {
+    color: #000863;
+    font-family: 'aldora';
+  }*/
+
+  h3{
+    color: #000863;
+    font-family: 'aldora';
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  /*h4 {
+    color: white;
+    font-family: 'aldora';
+    font-size: 10px;
+  }*/
+  
+  a{
+    color: #000863;
+    text-decoration: none;
+  }
 }
 
 table.main{
@@ -59,4 +116,24 @@ table.main{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); 
+}
+
+.buttons{
+  margin: 0;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.buttonCss {
+  /*background-color:   #686868; /* Green */
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  /*color: white; 
+  border-radius: 5px;
+  font-family: 'aldora';*/
 }
