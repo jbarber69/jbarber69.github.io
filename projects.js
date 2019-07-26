@@ -15,19 +15,19 @@ function toggleDarkLight() {
 }
 
 function projects(){
-	location.replace("./projects.html");
+	window.location.href = "./projects.html";
 }
 
 function other(){
-	location.replace("./other.html");
+	window.location.href = "./other.html";
 }
 
 function index(){
-	location.replace("./index.html")
+	window.location.href = "./index.html";
 }
 
 function theblankhand(){
-	location.replace("https://theblankhand.co.uk")
+	window.location.href = "https://theblankhand.co.uk"
 }
 
 $(document).ready(main);
