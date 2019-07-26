@@ -27,7 +27,7 @@ function index(){
 }
 
 function theblankhand(){
-	window.location.href = "https://theblankhand.co.uk"
+	window.open("https://theblankhand.co.uk", "_blank")
 }
 
 $(document).ready(main);
