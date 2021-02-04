@@ -1,18 +1,16 @@
 body{
-  /*background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
   background: #e8e8e8;
 }
 
-@font-face{
-  font-family: 'aldora';
-  src: url('Anson-Regular.otf');
+@font-face {
+  font-family: 'Louis-George';
+  src: url('Louis-George-Cafe.ttf');
 }
 
 body.dark-mode {
   background-color: black;
   color: white;
-  font-family: 'aldora';
+  font-family: 'Louis-George';
   text-decoration: none;
   text-decoration-color: white;
 
@@ -23,25 +21,25 @@ body.dark-mode {
 
   h1{
   color: white;
-  font-family: 'aldora';
+  font-family: 'Louis-George';
   text-align: center;
   }
 
   h2 {
     color: white;
-    font-family: 'aldora';
+    font-family: 'Louis-George';
   }
 
   h3{
     color: white;
-    font-family: 'aldora';
+    font-family: 'Louis-George';
     font-size: 20px;
     font-style: italic;
   }
   
   h4 {
     color: white;
-    font-family: 'aldora';
+    font-family: 'Louis-George';
     font-size: 10px;
   }
   
@@ -55,33 +53,16 @@ body.light-mode {
 
   background-color: #e8e8e8;
   color: #000863;
-  font-family: 'aldora';
+  font-family: 'Louis-George';
   text-decoration: none;
 
 
-  /*h1{
-  /*color: #000863;
-  font-family: 'aldora';
-  text-align: center;
-  }
-
-  h2 {
-    color: #000863;
-    font-family: 'aldora';
-  }*/
-
   h3{
     color: #000863;
-    font-family: 'aldora';
+    font-family: 'Louis-George';
     font-size: 20px;
     font-style: italic;
   }
-  
-  /*h4 {
-    color: white;
-    font-family: 'aldora';
-    font-size: 10px;
-  }*/
   
   a{
     color: #000863;
@@ -129,11 +110,7 @@ table.main{
 }
 
 .buttonCss {
-  /*background-color:   #686868; /* Green */
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
-  /*color: white; 
-  border-radius: 5px;
-  font-family: 'aldora';*/
 }
