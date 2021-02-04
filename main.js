@@ -11,12 +11,9 @@ function main(){
 }
 
 function toggleDarkLight() {
-  //alert("jeff");
   var body = document.getElementById("body");
   var currentClass = body.className;
-  //alert(currentClass);
   body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
-  //alert(body.className);
 }
 
 function projects(){
